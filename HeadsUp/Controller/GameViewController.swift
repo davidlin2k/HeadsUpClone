@@ -23,6 +23,9 @@ class GameViewController: UIViewController, GameEngineDelegate {
         
         gameEngine.delegate = self
         self.wordLabel.text = gameEngine.getCurrentWord()
+        
+        let nc = NotificationCenter.default
+        nc.addObserver(self, selector: #selector(appMovedToBackground), name: UIApplication.didEnterBackgroundNotification, object: nil)
     }
     
     override func viewDidDisappear(_ animated: Bool) {
@@ -62,6 +65,11 @@ class GameViewController: UIViewController, GameEngineDelegate {
         })
         
         self.wordLabel.text = gameEngine.getCurrentWord()
+    }
+    
+    @objc func appMovedToBackground() {
+        self.performSegue(withIdentifier: "unwindToMain", sender: self)
+        gameEngine.onExit()
     }
     
     @IBAction func backButtonPressed(_ sender: Any) {
