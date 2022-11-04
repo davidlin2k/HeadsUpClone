@@ -16,6 +16,7 @@
 		1F35F19A28B32C1800126D93 /* CountdownViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F35F19928B32C1800126D93 /* CountdownViewController.swift */; };
 		1F35F19F28B32DDE00126D93 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F35F19E28B32DDE00126D93 /* GameViewController.swift */; };
 		1F35F1A128B367A500126D93 /* GameEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F35F1A028B367A500126D93 /* GameEngine.swift */; };
+		63870FA22915A6F9003B5541 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63870FA12915A6F9003B5541 /* SettingViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		1F35F19928B32C1800126D93 /* CountdownViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountdownViewController.swift; sourceTree = "<group>"; };
 		1F35F19E28B32DDE00126D93 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		1F35F1A028B367A500126D93 /* GameEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameEngine.swift; sourceTree = "<group>"; };
+		63870FA12915A6F9003B5541 /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 				1F35F18928B328AE00126D93 /* ViewController.swift */,
 				1F35F19928B32C1800126D93 /* CountdownViewController.swift */,
 				1F35F19E28B32DDE00126D93 /* GameViewController.swift */,
+				63870FA12915A6F9003B5541 /* SettingViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -176,6 +179,7 @@
 				1F35F19A28B32C1800126D93 /* CountdownViewController.swift in Sources */,
 				1F35F18A28B328AE00126D93 /* ViewController.swift in Sources */,
 				1F35F18628B328AE00126D93 /* AppDelegate.swift in Sources */,
+				63870FA22915A6F9003B5541 /* SettingViewController.swift in Sources */,
 				1F35F18828B328AE00126D93 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -323,7 +327,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = J955DCMAJ9;
+				DEVELOPMENT_TEAM = TQ27LL9PXC;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = HeadsUp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -353,7 +357,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = J955DCMAJ9;
+				DEVELOPMENT_TEAM = TQ27LL9PXC;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = HeadsUp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;

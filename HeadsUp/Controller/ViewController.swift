@@ -10,10 +10,15 @@ import UIKit
 class ViewController: UIViewController {
     @IBOutlet weak var maxScoreLabel: UILabel!
     @IBOutlet weak var lastScoreLabel: UILabel!
+    @IBOutlet weak var settingImageView: UIImageView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        
+        let tapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(imageTapped(tapGestureRecognizer:)))
+        settingImageView.isUserInteractionEnabled = true
+        settingImageView.addGestureRecognizer(tapGestureRecognizer)
         
         let defaults = UserDefaults.standard
         
@@ -42,6 +47,13 @@ class ViewController: UIViewController {
         
         let lastScore = defaults.integer(forKey: "lastScore")
         self.lastScoreLabel.text = "Last Score: \(lastScore)"
+    }
+    
+    @objc func imageTapped(tapGestureRecognizer: UITapGestureRecognizer)
+    {
+        let tappedImage = tapGestureRecognizer.view as! UIImageView
+
+        // Your action
     }
 }
 
