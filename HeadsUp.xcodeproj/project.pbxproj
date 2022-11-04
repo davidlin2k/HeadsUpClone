@@ -17,6 +17,7 @@
 		1F35F19F28B32DDE00126D93 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F35F19E28B32DDE00126D93 /* GameViewController.swift */; };
 		1F35F1A128B367A500126D93 /* GameEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F35F1A028B367A500126D93 /* GameEngine.swift */; };
 		63870FA22915A6F9003B5541 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63870FA12915A6F9003B5541 /* SettingViewController.swift */; };
+		63870FA42915A95E003B5541 /* DatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63870FA32915A95E003B5541 /* DatabaseManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		1F35F19E28B32DDE00126D93 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		1F35F1A028B367A500126D93 /* GameEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameEngine.swift; sourceTree = "<group>"; };
 		63870FA12915A6F9003B5541 /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		63870FA32915A95E003B5541 /* DatabaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 			isa = PBXGroup;
 			children = (
 				1F35F1A028B367A500126D93 /* GameEngine.swift */,
+				63870FA32915A95E003B5541 /* DatabaseManager.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -174,6 +177,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63870FA42915A95E003B5541 /* DatabaseManager.swift in Sources */,
 				1F35F19F28B32DDE00126D93 /* GameViewController.swift in Sources */,
 				1F35F1A128B367A500126D93 /* GameEngine.swift in Sources */,
 				1F35F19A28B32C1800126D93 /* CountdownViewController.swift in Sources */,
